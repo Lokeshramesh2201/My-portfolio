@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lokesh-Portfolio</title>
+    <!-- box icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="./style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+    </style>
+   <script type="text/javascript"
+   src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
+<script type="text/javascript">
+(function(){
+ emailjs.init({
+   publicKey: "rLXKf7J5V-rf8RsqA",
+ });
+})();
+</script>
+</head>
+
+<body>
+    <!-- header design -->
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+        <i class='bx bx-menu' id="menu-icon"></i>
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about" class="active">About</a>
+            <a href="#skill" class="active">Skill</a>
+            <a href="#projects" class="active">Projects</a>
+            <a href="#contact" class="active">Contact</a>
+        </nav>
+    </header>
+    <!-- /* Home content design */ -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, It's Me</h3>
+            <h1>Lokesh</h1>
+            <h3>And I'm a <span>Frontend devoloper</span></h3>
+            <p>
+                Passionate front-end developer with expertise in HTML, CSS, JavaScript, React.js and Java seeking entry-level
+                software developer role. Eager to contribute to innovative solutions, apply front-end skills, and
+                collaborate in a dynamic team to embrace full-stack development challenges.</p>
+            <div class="socialmedia">
+                <a href="#"><i class='bx bxl-linkedin-square'></i></a>
+                <a href="#"><i class='bx bxl-gmail'></i></a>
+                <a href="#"><i class='bx bxl-instagram-alt'></i></a>
+                <a href="#"><i class='bx bxl-whatsapp'></i></a>
+            </div>
+            <a href="./lokiimg/lokiimg.jpg" download="LokeshResume" class="btn"><i>Dounload CV</i></a>
+        </div>
+        <div class="home-img">
+            <img class="mainimg" id="img" src="./lokiimg/lokiimg.jpg" height="350px" alt="">
+        </div>
+    </section>
+    <!-- /* ABOUT SECTION */ -->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img class="about-img" src="./lokiimg/WhatsApp Image 2024-03-04 at 15.20.37_1ca2de7b.jpg" height="400px" alt="About img">
+        </div>
+
+        <div class="about-content">
+            <h2 class="heading">About <span> Me</span></h2>
+            <h3>Frontend devoloper</h3>
+            <p>
+                Enthusiast`ic and detail-oriented front-end developer fresh out of Qspider, equipped with a solid foundation in HTML, CSS, JavaScript, React.js and Java . Eager to kickstart my career,          I bring a creative approach to design and a passion for crafting engaging user experiences. Committed to staying current with industry trends and excited to contribute my skills to dynamic projects.
+            </p>
+            <a href="#" class="btn">Read More</a>
+        </div>
+    </section>
+          <!-- /* SKILLS SECTION DESIGN -->
+          <section class="service" id="skill">
+            <h2 class="heading"> My <span>Skills</span></h2>
+            <div class="img-load"></div>
+            <div class="flex">
+
+                <a href="" target=""></a>
+                <div class="service-container">
+                <div class="servicebox">
+                    <i class='bx bxs-file-html' ></i>
+                    <i class='bx bxl-css3'></i>
+                <span> <h2>HTML & CSS</h2></span>
+                <p>
+                    Proficient in HTML and CSS, with a keen eye for responsive design and a solid understanding of web development principles to create visually appealing and functional websites. .</p>
+                <a href="#" class="btn">Read more</a>
+            </div>
+                </div>
+            
+
+            <a href="" target=""></a>
+            <div class="service-container">
+            <div class="servicebox">
+            <i class='bx bxl-javascript' ></i>
+            <span> <h2>JavaScript</h2></span>
+            <p>
+                Proficient in JavaScript, adept at creating dynamic and responsive web applications through comprehensive understanding of ES6+ features, asynchronous programming, and modern frameworks/libraries.</p>
+            <a href="#" class="btn">Read more</a>
+        </div>
+            </div>    
+                <a href="" target=""></a>
+                <div class="service-container">
+                <div class="servicebox">
+                <i class='bx bxl-react' ></i>
+                <span> <h2>REACT JS</h2></span>
+                <p>
+                    Strong command of React.js, adept at crafting interactive and efficient user interfaces. Extensive experience in building modular components and leveraging state management for seamless front-end development.</p>
+                <a href="#" class="btn">Read more</a>
+            </div>
+                </div>
+
+            <div class="service-container">
+                <div class="servicebox">
+                    <i class='bx bxl-java' ></i>
+                <span><h2>Java and Oops</h2></span>
+                <p>Java skills with a deep understanding of Object-Oriented Programming concepts, showcasing the ability to architect and implement efficient, scalable solutions for complex software projects.</p>
+                <a href="#" class="btn">Read more</a>
+            </div>
+                </div>
+            </div>
+            </section>
+           <!-- Projects -->
+            <section class="portfolio" id="projects">
+                <h2 class="heading">Latest <span>Projects</span></h2>
+                <div class="portfolio-container">
+                    <div class="portfoliobox">
+                        <img src="./lokiimg/business-office-scene.jpg" alt="" height="350px">
+                        <div class="portfolio-layer">
+                            <h4>Calculator</h4>
+                            <p>"Created a functional calculator using <span class="tech">HTML</span> for structure, <span class="tech">CSS </span>for styling, and <span class="tech">JavaScript </span>for dynamic calculations and user interaction."
+                            </p>
+                            <a href="#"><i class='bx bx-link-external'></i></a>
+                        </div>
+                        </div>
+
+                        
+                        <div class="portfoliobox">
+                        <img src="./lokiimg/Xo2.jpg" alt="" height="350px">
+                        <div class="portfolio-layer">
+                            <h4 >Tic Tac To Game</h4>
+                            <p>
+                                "Developed a Tic Tac Toe game using <span class="tech"> React.js</span>, showcasing proficiency in state management, component lifecycle, and interactive web application development."
+                                
+                                </p>
+                            <a href="#"><i class='bx bx-link-external'></i></a>
+                        </div>
+                    </div>
+                      
+                        <div class="portfoliobox">
+                        <img src="./lokiimg/parking.png" alt="" height="350px">
+                        <div class="portfolio-layer">
+                            <h4>Parking Application</h4>
+                            <p>
+                                "Developed a parking management system using <span class="tech">HTML,CSS and JavaScript </span> efficiently handle and organize parking spaces with responsive user interfaces."</p>
+                            <a href="#"><i class='bx bx-link-external'></i></a>
+                        </div>
+                    </div>
+                       
+                        <div class="portfoliobox">
+                        <img src="./lokiimg/ebbb.png"alt="" height="350px">
+                        <div class="portfolio-layer">
+                            <h4>EB-Bill Calculator</h4>
+                            <p>
+                                "Developed an Energy Bill (EB) calculator with <span class="tech"> React.js</span>, offering tips for reducing utility bills to promote energy efficiency."</p>
+                            <a href="#"><i class='bx bx-link-external'></i></a>
+                        </div>
+                    </div>
+
+                        <div class="portfoliobox">
+                        <img src="./lokiimg/java.jfif"alt="">
+                        <div class="portfolio-layer">
+                            <h4>Calculator</h4>                         
+                               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat nam iusto consectetur quibusdam earum exercitationem eos dolor? Itaque reprehenderit animi dicta m?</p>
+                            <a href="#"><i class='bx bx-link-external'></i></a>
+                        </div>
+                        </div>
+                       
+                        <div class="portfoliobox">
+                        <img src="./lokiimg/CSS2.jpg" alt="">
+                        <div class="portfolio-layer">
+                            <h4>Calculator</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat nam iusto consectetur quibusdam earum exercitationem eos dolor? Itaque reprehenderit animi dicta corporis molestiae quaerat, nemo quibusdam! Dolorum enim omnis totam?</p>
+                            <a href="#"><i class='bx bx-link-external'></i></a>
+                        </div>
+                    </div>
+                    </div>
+                </section>
+                <!-- contact part -->
+                <section class="contact" id="contact">
+                    <h2 class="heading"> Contact <span>Me!</span></h2>
+                    <form action="#">
+                        <div class="input-box">
+                            <input type="text" placeholder="Full Name" name="" id="fullName">
+                            <input type="email" placeholder="Email Address" name="" id="emailAddress">
+                         
+                        </div>
+                        <div class="input-box">
+                            <input type="number" name="" id="phoneNumber" placeholder="Mobile Number">
+                            <input type="text" name="" id="emailSubject" placeholder="Email Subject">
+
+                        </div>
+                        <textarea name="" id="yourMessage" cols="30" rows="10" placeholder="Yout Message"></textarea>
+                        <input type="submit" value="send message" class="btn" id="button">
+                    </form> 
+                </section>
+                <!-- scroll reveal -->
+                <script src="https://unpkg.com/scrollreveal"></script>
+
+    <script src="./script.js"></script> 
+</body>
+</html>
